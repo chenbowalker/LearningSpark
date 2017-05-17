@@ -73,7 +73,9 @@ examples/target/spark-examples_2.10-1.6.1.jar
 suspend=y表示启动执行暂停，等待debugger连接之后开始运行（5005端口）
 命令行会显示Listening for transport dt_socket at address: 5005
 此时只需要在 Intellij 上打开SparkPi.scala文件, 加上断点, 再点Run -> Debug 'Remote', 就能开始单步追踪调试了.
+
 感谢：
+
 [Spark+Intellij 舒服的源码开发环境配置](http://dragonly.github.io/note/2016/05/10/Spark+Intellij-%E8%88%92%E6%9C%8D%E7%9A%84%E6%BA%90%E7%A0%81%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html)
 
 [Building Spark官网](http://spark.apache.org/docs/latest/building-spark.html#building-spark)
